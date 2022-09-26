@@ -8,7 +8,7 @@ export default function Menu(){
                     <Text style={styles.textMenuRastreamento}>
                         Rastreamento
                     </Text>
-                    {'    '}Enviar    Receber    Comprar Logística
+                    {'    '}Enviar    Receber    Comprar  Logística
                 </Text>    
             </View> 
                 {/* Enviar Receber Comprar Logística */}
