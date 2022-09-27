@@ -1,6 +1,6 @@
-import { View,StyleSheet,Text } from "react-native";
+import { View, StyleSheet, Text } from "react-native";
 
-export default function Menu(){
+export default function Menu() {
     return (
         <View style={styles.container}>
             <View style={styles.containerTextMenu}>
@@ -9,33 +9,32 @@ export default function Menu(){
                         Rastreamento
                     </Text>
                     {'    '}Enviar    Receber    Comprar  Logística
-                </Text>    
-            </View> 
-                {/* Enviar Receber Comprar Logística */}
-        </View>    
+                </Text>
+            </View>
+        </View>
     )
 }
 
 const styles = StyleSheet.create({
-    container:{
+    container: {
         backgroundColor: '#ffd400',
         flexDirection: "row",
         paddingStart: 16,
         paddingEnd: 16,
-        paddingBottom: 10  
+        paddingBottom: 10
     },
-    containerTextMenu:{
-        alignContent:'space-between',
-        display:'flex',
-        flex:1,
-        alignContent:'space-between',
-        width:'100%'
+    containerTextMenu: {
+        alignContent: 'space-between',
+        display: 'flex',
+        flex: 1,
+        alignContent: 'space-between',
+        width: '100%'
     },
-    textMenu:{
-        color:'#0083ca',
+    textMenu: {
+        color: '#0083ca',
     },
-    textMenuRastreamento:{
-        backgroundColor:'#fafafaae',
-        borderRadius:10
+    textMenuRastreamento: {
+        backgroundColor: '#fafafaae',
+        borderRadius: 10
     }
 })

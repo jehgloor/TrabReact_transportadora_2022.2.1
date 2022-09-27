@@ -64,12 +64,12 @@ const styles = StyleSheet.create({
     inTime: {
         fontSize: 16,
         color: '#00ff00',
-        fontWeight: "bold",
+        fontWeight: "bold"
     },
     onRoute: {
         fontSize: 16,
         color: '#00b200',
-        fontWeight: "bold",
+        fontWeight: "bold"
     },
     disable: {
         marginTop: 6,

@@ -6,6 +6,7 @@ import Menu from '../../componentes/Menu';
 import SearchBar from '../../componentes/SeachBar';
 import Screen from '../../componentes/Screen/Screen';
 import Situation from '../../componentes/Situation';
+import Footer from '../../componentes/Footer';
 
 const list = [
   {
@@ -93,6 +94,7 @@ export default function Home() {
           renderItem={({ item }) => <Situation data={item} />}
         />
       </Screen>
+      <Footer phone={"(55) 3333-0000"} email={"correios@correios.com.br"}></Footer>
     </View>
   )
 }
